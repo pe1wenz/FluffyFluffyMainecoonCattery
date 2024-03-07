@@ -135,9 +135,9 @@ const KittenInfoWrapper = styled.div`
     }
     
     @media screen and (max-width: 768px) {
-        justify-content: start;
-        margin-left: 15px;
-        padding-left: 16px;
+        justify-content: center;
+        //margin-left: 15px;
+        //padding-left: 16px;
     }
 `;
 
