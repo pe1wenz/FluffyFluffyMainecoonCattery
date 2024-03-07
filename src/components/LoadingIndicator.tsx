@@ -3,9 +3,14 @@
 const LoadingIndicator = () => {
     return (
         <div style={
-            { textAlign: 'center',
-                padding: '20px',
+            {
+                position: "absolute",
+                textAlign: 'center',
+                padding: '60px',
+                // marginTop: '60px',
                 height: '100%',
+                width: '100%',
+                backgroundColor: "white",
             }
         }>
             <p>Loading the page...</p>

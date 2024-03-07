@@ -12,6 +12,7 @@ import Owning from "./pages/Owning";
 import ScrollUpFadeIn from "./components/ScrollUpFadeIn";
 import styled from 'styled-components';
 import {IoArrowUp} from "react-icons/io5";
+import LoadingIndicator from "./components/LoadingIndicator.tsx";
 
 const LitterA = lazy(() => import('./pages/Litters_Page/LitterA'));
 const LitterB = lazy(() => import('./pages/Litters_Page/LitterB'));
@@ -82,22 +83,22 @@ function App() {
 
             </Routes>
             <Routes>
-                <Route path="/kittens/litter-a" element={<Suspense fallback={<div>Loading...</div>}>
+                <Route path="/kittens/litter-a" element={<Suspense fallback={<LoadingIndicator/>}>
                     <LitterA />
                 </Suspense>} />
-                <Route path="/kittens/litter-b" element={<Suspense fallback={<div>Loading...</div>}>
+                <Route path="/kittens/litter-b" element={<Suspense fallback={<LoadingIndicator/>}>
                     <LitterB />
                 </Suspense>} />
-                <Route path="/kittens/litter-c" element={<Suspense fallback={<div>Loading...</div>}>
+                <Route path="/kittens/litter-c" element={<Suspense fallback={<LoadingIndicator/>}>
                     <LitterC />
                 </Suspense>} />
-                <Route path="/kittens/litter-d" element={<Suspense fallback={<div>Loading...</div>}>
+                <Route path="/kittens/litter-d" element={<Suspense fallback={<LoadingIndicator/>}>
                     <LitterD />
                 </Suspense>} />
-                <Route path="/kittens/litter-e" element={<Suspense fallback={<div>Loading...</div>}>
+                <Route path="/kittens/litter-e" element={<Suspense fallback={<LoadingIndicator/>}>
                     <LitterE />
                 </Suspense>} />
-                <Route path="/kittens/litter-f" element={<Suspense fallback={<div>Loading...</div>}>
+                <Route path="/kittens/litter-f" element={<Suspense fallback={<LoadingIndicator/>}>
                     <LitterF />
                 </Suspense>} />
             </Routes>

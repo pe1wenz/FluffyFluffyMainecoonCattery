@@ -138,6 +138,7 @@ const KittenInfoWrapper = styled.div`
         justify-content: center;
         //margin-left: 15px;
         //padding-left: 16px;
+        max-width: 90%;
     }
 `;
 
@@ -253,7 +254,7 @@ const KittenSelectorWrapper = styled.div`
 
 const Litter: React.FC<LitterProps> =({kittensData}) => {
     const [selectedKittenIndex, setSelectedKittenIndex] = useState<number | null>(0);
-    const [isNavExpanded, setIsNavExpanded] = useState(false);
+    const [isNavExpanded, setIsNavExpanded] = useState(window.innerWidth > 768);
     const handleKittenSelectorClick = (index: number) => {
         setSelectedKittenIndex(index);
         // If in mobile view, close the nav bar after a selection
