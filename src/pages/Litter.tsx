@@ -182,7 +182,7 @@ const MinimizeButton = styled.div`
     transition-duration: 0.3s;
 
     &:hover {
-        border-bottom: solid 5px rgba(205, 133, 63, 0.57);
+        //border-bottom: solid 5px rgba(205, 133, 63, 0.57);
         transform: translateY(-2px);
         cursor: pointer;
     }
@@ -247,7 +247,7 @@ const KittenSelectorWrapper = styled.div`
 
 const Litter: React.FC<LitterProps> =({kittensData}) => {
     const [selectedKittenIndex, setSelectedKittenIndex] = useState<number | null>(0);
-    const [isNavExpanded, setIsNavExpanded] = useState(true);
+    const [isNavExpanded, setIsNavExpanded] = useState(false);
     const handleKittenSelectorClick = (index: number) => {
         setSelectedKittenIndex(index);
         // If in mobile view, close the nav bar after a selection
