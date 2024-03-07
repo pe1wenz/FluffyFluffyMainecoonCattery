@@ -88,12 +88,6 @@ function App() {
                 <Route path="/kittens/litter-d" element={<LitterD />} />
                 <Route path="/kittens/litter-e" element={<LitterE />} />
                 <Route path="/kittens/litter-f" element={<LitterF />} />
-                {/*<Route path="/kittens/litter-f" element={<Litter kittensData={LitterFListingData} />} />*/}
-                {/*<Route path="/kittens/litter-e" element={<Litter kittensData={LitterEListingData} />} />*/}
-                {/*<Route path="/kittens/litter-d" element={<Litter kittensData={LitterDListingData} />} />*/}
-                {/*<Route path="/kittens/litter-c" element={<Litter kittensData={LitterCListingData} />} />*/}
-                {/*<Route path="/kittens/litter-b" element={<Litter kittensData={LitterBListingData} />} />*/}
-                {/*<Route path="/kittens/litter-a" element={<Litter kittensData={LitterAListingData} />} />*/}
             </Routes>
             <Footer />
             <ScrollUpFadeIn onClick={handleScrollToTop} threshold={200}>

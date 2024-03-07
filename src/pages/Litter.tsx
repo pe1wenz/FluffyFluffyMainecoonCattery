@@ -247,7 +247,7 @@ const KittenSelectorWrapper = styled.div`
 
 const Litter: React.FC<LitterProps> =({kittensData}) => {
     const [selectedKittenIndex, setSelectedKittenIndex] = useState<number | null>(0);
-    const [isNavExpanded, setIsNavExpanded] = useState(false);
+    const [isNavExpanded, setIsNavExpanded] = useState(true);
     const handleKittenSelectorClick = (index: number) => {
         setSelectedKittenIndex(index);
         // If in mobile view, close the nav bar after a selection
@@ -260,7 +260,7 @@ const Litter: React.FC<LitterProps> =({kittensData}) => {
         if (window.innerWidth <= 768) {
             setIsNavExpanded(!isNavExpanded);
         }else {
-            setIsNavExpanded(false);
+            setIsNavExpanded(true);
         }
     };
 
