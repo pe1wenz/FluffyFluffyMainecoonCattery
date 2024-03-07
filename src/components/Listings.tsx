@@ -57,11 +57,11 @@ const LitterInfo: React.FC<LitterInfoProps>  = ({ image, alt, litterName, to }) 
             <InfoWrap>
                  <ScrollUpFadeIn >
                      {/*<InfoContent>*/}
-                         <ImageLink to={to} rel="noopener noreferrer" target="_blank">
+                         <ImageLink to={to}>
                             <Image src={image} alt={alt} />
                          </ImageLink>
                         <h2>{litterName}</h2>
-                        <InfoLink to={to} rel="noopener noreferrer" target="_blank">
+                        <InfoLink to={to}>
                             <p>View details</p>
                             <Arrow />
                         </InfoLink>

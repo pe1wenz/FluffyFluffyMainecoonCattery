@@ -1,4 +1,4 @@
-import {lazy, useEffect, useState} from 'react';
+import {lazy, Suspense, useEffect, useState} from 'react';
 import GlobalStyles from "./globalStyles";
 import NavbarComponent from "./components/NavbarComponent";
 import Dropdown from "./components/Dropdown";
@@ -82,12 +82,24 @@ function App() {
 
             </Routes>
             <Routes>
-                <Route path="/kittens/litter-a" element={<LitterA />} />
-                <Route path="/kittens/litter-b" element={<LitterB />} />
-                <Route path="/kittens/litter-c" element={<LitterC />} />
-                <Route path="/kittens/litter-d" element={<LitterD />} />
-                <Route path="/kittens/litter-e" element={<LitterE />} />
-                <Route path="/kittens/litter-f" element={<LitterF />} />
+                <Route path="/kittens/litter-a" element={<Suspense fallback={<div>Loading...</div>}>
+                    <LitterA />
+                </Suspense>} />
+                <Route path="/kittens/litter-b" element={<Suspense fallback={<div>Loading...</div>}>
+                    <LitterB />
+                </Suspense>} />
+                <Route path="/kittens/litter-c" element={<Suspense fallback={<div>Loading...</div>}>
+                    <LitterC />
+                </Suspense>} />
+                <Route path="/kittens/litter-d" element={<Suspense fallback={<div>Loading...</div>}>
+                    <LitterD />
+                </Suspense>} />
+                <Route path="/kittens/litter-e" element={<Suspense fallback={<div>Loading...</div>}>
+                    <LitterE />
+                </Suspense>} />
+                <Route path="/kittens/litter-f" element={<Suspense fallback={<div>Loading...</div>}>
+                    <LitterF />
+                </Suspense>} />
             </Routes>
             <Footer />
             <ScrollUpFadeIn onClick={handleScrollToTop} threshold={200}>
