@@ -18,7 +18,7 @@ const ChapterHeading = styled.div`
     //display: flex;
     display: inline-flex;
     align-items: center;
-    padding: 1rem 4rem;
+    padding: 1rem 2rem;
     
     h2{
         font-family: "Space Grotesk", sans-serif;

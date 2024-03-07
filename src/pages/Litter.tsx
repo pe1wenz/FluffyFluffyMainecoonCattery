@@ -226,7 +226,7 @@ const KittenSelectorWrapper = styled.div`
         font-size: 32px;
         margin-bottom: 20px;
         border-bottom: solid 5px transparent;
-        transition-duration: 0.3s;
+        transition: 0.3s ease-in-out;
 
         &:hover {
             border-bottom: solid 5px rgba(205, 133, 63, 0.57);
@@ -239,6 +239,12 @@ const KittenSelectorWrapper = styled.div`
     &.active {
         h2 {
             border-bottom: solid 5px #CD853F;
+        }
+    }
+
+    &.expanded {
+        h2 {
+            transition: 0.3s ease-in-out;
         }
     }
 `;
