@@ -56,7 +56,7 @@ export const KittensFeatures = {
 
 export const OwningFeatures1 = {
     heading: "Applications",
-    paragraph1: "Unfortunately, Currently We Are Not Accepting New Applications.",
+    paragraph1: "Unfortunately, currently we are not accepting new applications.",
     button1Text: "See Past Litters",
     button1Link: "/kittens",
     button2Text: "",
