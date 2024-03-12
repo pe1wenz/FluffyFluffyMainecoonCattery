@@ -50,8 +50,10 @@ const ScrollUpFadeIn: React.FC<ScrollUpFadeInProps> = ({children,
             // You can adjust the threshold value to control when the button becomes visible
             // const threshold = threshold;
 
-            // @ts-ignore
-            setIsVisible(scrollTop > threshold);
+            if(scrollTop > threshold){
+                setIsVisible(true);
+            }
+            // setIsVisible(scrollTop > threshold);
         };
 
         window.addEventListener("scroll", handleScroll);
