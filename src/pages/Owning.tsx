@@ -76,8 +76,8 @@ function Owning() {
                     paragraph2={''}
                     button1Text={OwningFeatures1.button1Text}
                     button1Link={OwningFeatures1.button1Link}
-                    button2Text={''}
-                    button2Link={''}
+                    button2Text={OwningFeatures1.button2Text}
+                    button2Link={OwningFeatures1.button2Link}
                     imageSrc={OwningFeatures1.imageSrc}
                 />
             </FeatureWrapper>

@@ -134,11 +134,19 @@ const KittenInfoWrapper = styled.div`
 
     }
     
+ 
+    
+    
+    
     @media screen and (max-width: 768px) {
         justify-content: center;
         //margin-left: 15px;
         //padding-left: 16px;
         max-width: 90%;
+
+        &:hover{
+            cursor: pointer;
+        }
     }
 `;
 
@@ -314,7 +322,11 @@ const Litter: React.FC<LitterProps> =({kittensData}) => {
                 )}
                 {selectedKittenIndex !== null && (
                     <PhotoSetWrapper>
-                        <KittenInfoWrapper>
+                        <KittenInfoWrapper
+                            onClick={() => {
+                                // handleKittenSelectorClick(-1);
+                                toggleNav();
+                            }}>
                             <h2>{kittensData[selectedKittenIndex].name}</h2>
                             <KittenDetailInfo>
                                 <h3>{kittensData[selectedKittenIndex].gender}</h3>

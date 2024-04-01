@@ -257,7 +257,7 @@ export const LitterCListingData = [
         gender:'Female',
         color:'Black',
         birthday:'02/22/2022',
-        availability:'Sold',
+        availability:'Available',
         path:'coco',
         litterName:'C',
         images:[

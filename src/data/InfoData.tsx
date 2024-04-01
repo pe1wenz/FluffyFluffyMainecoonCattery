@@ -56,11 +56,11 @@ export const KittensFeatures = {
 
 export const OwningFeatures1 = {
     heading: "Applications",
-    paragraph1: "Unfortunately, currently we are not accepting new applications.",
-    button1Text: "See Past Litters",
-    button1Link: "/kittens",
-    button2Text: "",
-    button2Link: "",
+    paragraph1: "Currently the only cat we have available is Miss.Coco from Litter C",
+    button1Text: "Apply",
+    button1Link: "https://forms.gle/xhihk73ejeQaFt9DA",
+    button2Text: "See Miss.Coco",
+    button2Link: "/kittens/litter-c",
     imageSrc: KittensFeaturesImg4,
 };
 
