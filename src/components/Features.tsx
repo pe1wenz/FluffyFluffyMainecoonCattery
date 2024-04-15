@@ -119,7 +119,7 @@ const Features: React.FC<FeaturesProps> = ({
                             <p>{paragraph1}</p>
                             <p>{paragraph2}</p>
 
-                            {customButtonText && (
+                            {customButtonText && customButtonLink && (
                                 <CustomButton to={customButtonLink} target="_blank" rel="noopener noreferrer">
                                     {customButtonText}
                                     <Arrow />
