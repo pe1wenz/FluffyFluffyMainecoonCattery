@@ -59,8 +59,10 @@ export const OwningFeatures1 = {
     paragraph1: "Currently the only cat we have available is Miss.Coco from Litter C",
     button1Text: "Apply",
     button1Link: "https://forms.gle/xhihk73ejeQaFt9DA",
-    button2Text: "See Miss.Coco",
+    button2Text: "See Miss.Coco's Photo",
     button2Link: "/kittens/litter-c",
+    customButtonLink: "https://youtube.com/shorts/Ts-HwIaTAUo",
+    customButtonText: "See Miss.Coco's Video",
     imageSrc: KittensFeaturesImg4,
 };
 

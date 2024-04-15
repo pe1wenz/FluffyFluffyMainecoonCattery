@@ -78,6 +78,8 @@ function Owning() {
                     button1Link={OwningFeatures1.button1Link}
                     button2Text={OwningFeatures1.button2Text}
                     button2Link={OwningFeatures1.button2Link}
+                    customButtonText={OwningFeatures1.customButtonText}
+                    customButtonLink={OwningFeatures1.customButtonLink}
                     imageSrc={OwningFeatures1.imageSrc}
                 />
             </FeatureWrapper>

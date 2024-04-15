@@ -12,10 +12,8 @@ interface FeaturesProps {
     button2Text: string;
     button2Link: string;
     imageSrc: string;
-    customButton?: {
-        text: string;
-        link: string;
-    };
+    customButtonText?: string;
+    customButtonLink?: string;
 }
 
 const Section = styled.section`
@@ -108,7 +106,8 @@ const Features: React.FC<FeaturesProps> = ({
                                                button2Text,
                                                button2Link,
                                                imageSrc,
-                                               customButton,
+                                               customButtonText,
+                                               customButtonLink
                                            }) => {
     return (
         <Section>
@@ -119,12 +118,14 @@ const Features: React.FC<FeaturesProps> = ({
                             <h1>{heading}</h1>
                             <p>{paragraph1}</p>
                             <p>{paragraph2}</p>
-                            {button1Text !== '' && (
-                                <CustomButton to={button1Link} target="_blank" rel="noopener noreferrer">
-                                    {button1Text}
+
+                            {customButtonText && (
+                                <CustomButton to={customButtonLink} target="_blank" rel="noopener noreferrer">
+                                    {customButtonText}
                                     <Arrow />
                                 </CustomButton>
                             )}
+
                             {button2Text !== '' && (
 
                                 <CustomButton to={button2Link} target="_blank" rel="noopener noreferrer">
@@ -132,13 +133,13 @@ const Features: React.FC<FeaturesProps> = ({
                                     <Arrow />
                                 </CustomButton>
                             )}
-
-                            {customButton && (
-                                <CustomButton to={customButton.link} target="_blank" rel="noopener noreferrer">
-                                    {customButton.text}
+                            {button1Text !== '' && (
+                                <CustomButton to={button1Link} target="_blank" rel="noopener noreferrer">
+                                    {button1Text}
                                     <Arrow />
                                 </CustomButton>
                             )}
+
                         </Content>
                     </ColumnLeft>
                     <ColumnRight>
