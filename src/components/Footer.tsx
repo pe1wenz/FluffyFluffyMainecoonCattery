@@ -151,7 +151,7 @@ const Footer = () =>{
                     </Quote>
                     <FooterInfo>
                         <h4> Contact Us</h4>
-                        <a href="tel:+5405536185" target="_blank">(540) 553-6185</a>
+                        {/*<a href="tel:+5405536185" target="_blank">(540) 553-6185</a>*/}
                         <a href="mailto:fluffyfluffycattery@gmail.com" target="_blank">fluffyfluffycattery@gmail.com</a>
                     </FooterInfo>
                     <FooterInfo>
