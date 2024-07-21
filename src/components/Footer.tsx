@@ -129,7 +129,6 @@ const Contact = styled.div`
     @media screen and (max-width: 768px) {
         width: 100%;
         justify-content: flex-start;
-
     }
 `;
 
