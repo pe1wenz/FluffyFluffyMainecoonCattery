@@ -27,7 +27,7 @@ export const InfoData = {
 export const OwningInfoDataOne = {
   heading: "Deposits & Payments",
   paragraphOne:
-    "We Require a $500 non-refundable deposit for each kitten. Every kitten is priced at $2500 regarding gender/color.",
+    "We Require a $500 non-refundable deposit for each kitten. Every kitten is priced at $3000 regarding gender/color.",
   paragraphTwo: "Payment methods: Check, Cash, Zelle.",
   buttonLabel: "",
   image: InfoImage2,
@@ -60,11 +60,11 @@ export const KittensFeatures = {
 
 export const OwningFeatures1 = {
   heading: "Applications",
-  paragraph1: "Currently we do not have any available kittens.",
-  button1Text: "",
-  button1Link: "",
-  button2Text: "",
-  button2Link: "",
+  paragraph1: "Apply for Litter G Kittens!",
+  button1Text: "See Litter G Photos",
+  button1Link: "/kittens/litter-g",
+  button2Text: "Apply",
+  button2Link: "https://forms.gle/ZfKj9p4vWs3HUCNB6",
   customButtonLink: "",
   customButtonText: "",
   imageSrc: KittensFeaturesImg4,
