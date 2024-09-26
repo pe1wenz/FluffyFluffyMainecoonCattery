@@ -155,7 +155,7 @@ const Footer = () =>{
                     </FooterInfo>
                     <FooterInfo>
                         <h4> Location</h4>
-                        <a href="https://www.google.com/maps/place/+VA,+USA" target="_blank" rel="noreferrer">Virginia, USA</a>
+                        <a href="https://www.google.com/maps/place/+Sterling,+VA,+USA" target="_blank" rel="noreferrer">Sterling Virginia, USA</a>
                     </FooterInfo>
                 </FooterTop>
                 <FooterBottom>
