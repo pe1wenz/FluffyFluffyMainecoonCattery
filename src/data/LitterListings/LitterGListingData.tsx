@@ -90,7 +90,7 @@ export const LitterGListingData = [
     gender: "Male",
     color: "Brown Tabby",
     birthday: "07/11/2024",
-    availability: "Available",
+    availability: "Reserved",
     path: "gusto",
     litterName: "G",
     images: [
