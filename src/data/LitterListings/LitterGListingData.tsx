@@ -28,7 +28,7 @@ export const LitterGListingData = [
     gender: "Female",
     color: "Brown Tabby",
     birthday: "07/11/2024",
-    availability: "Reserved",
+    availability: "Sold",
     path: "gemma",
     litterName: "G",
     images: [
@@ -59,7 +59,7 @@ export const LitterGListingData = [
     gender: "Male",
     color: "Black Smoke",
     birthday: "07/11/2024",
-    availability: "Reserved",
+    availability: "Sold",
     path: "gizmo",
     litterName: "G",
     images: [
@@ -90,7 +90,7 @@ export const LitterGListingData = [
     gender: "Male",
     color: "Brown Tabby",
     birthday: "07/11/2024",
-    availability: "Reserved",
+    availability: "Sold",
     path: "gusto",
     litterName: "G",
     images: [
@@ -121,7 +121,7 @@ export const LitterGListingData = [
     gender: "Female",
     color: "Silver Tabby",
     birthday: "07/11/2024",
-    availability: "Reserved",
+    availability: "Sold",
     path: "glida",
     litterName: "G",
     images: [
