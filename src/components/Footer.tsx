@@ -176,7 +176,7 @@ const Footer = () =>{
                         {/*</Button>*/}
                     </Contact>
                 </FooterBottom>
-                <CopyRight>&copy; 2024 by Fluffy Fluffy. All rights reserved.</CopyRight>
+                <CopyRight>&copy; 2025 by Fluffy Fluffy. All rights reserved.</CopyRight>
             </Container>
         </Section>
     );

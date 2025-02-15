@@ -9,6 +9,7 @@ import LitterDCover from "../assets/images/litter-images/litter-d/litter_d_cover
 import LitterECover from "../assets/images/litter-images/litter-e/litter_e_cover_img.jpeg";
 import LitterFCover from "../assets/images/litter-images/litter-f/litter_f_cover_img.jpeg";
 import LitterGCover from "../assets/images/litter-images/litter-g/litter_g_cover_img.jpeg";
+import LitterHCover from "../assets/images/litter-images/litter-h/litter_h_cover_img.jpeg";
 import ScrollUpFadeIn from "./ScrollUpFadeIn";
 
 const Section = styled.section`
@@ -139,6 +140,12 @@ const Listings = () => {
             <h1> Our Litters</h1>
           </Heading>
           <InfoRow>
+            <LitterInfo
+              image={LitterHCover}
+              alt="litter h kitten cover image"
+              litterName="Litter H"
+              to="/kittens/litter-h"
+            />
             <LitterInfo
               image={LitterGCover}
               alt="litter g kitten cover image"
