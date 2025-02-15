@@ -30,7 +30,7 @@ export const LitterHListingData = [
     birthday: "01/05/2025",
     availability: "Available",
     path: "honeybun",
-    litterName: "G",
+    litterName: "H",
     images: [
       {
         original: Honeybun5w1,

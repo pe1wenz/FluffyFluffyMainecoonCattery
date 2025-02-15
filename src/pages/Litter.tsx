@@ -142,7 +142,15 @@ const KittenInfoWrapper = styled.div`
         justify-content: center;
         //margin-left: 15px;
         //padding-left: 16px;
-        max-width: 90%;
+        max-width: 100%;
+
+        h2{
+
+            font-size: 2.8rem;
+            
+
+
+        }
 
         &:hover{
             cursor: pointer;
