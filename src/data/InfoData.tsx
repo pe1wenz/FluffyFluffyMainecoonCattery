@@ -84,8 +84,8 @@ export const OwningFeatures2 = {
 export const OwningFeatures3 = {
   heading: "Pick Up The Kitten",
   paragraph1:
-    "Kitten may be picked up after 16 weeks old. Client will need to pick up the kitten from our place.",
-  paragraph2: "We do not provide animal shipping / flying service.",
+    "Kitten may be picked up after 16 weeks old. Pickup must be done in person at our location. We do offer personal delivery of kittens for an additional fee.",
+  paragraph2: "We do not offer third-party animal shipping or flight services. ",
   button1Text: "",
   button1Link: "",
   imageSrc: KittensFeaturesImg3,
