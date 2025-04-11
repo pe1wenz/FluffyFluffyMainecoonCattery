@@ -9,6 +9,14 @@ import Honeybun10w2 from "../../assets/images/litter-images/litter-h/Honeybun/ph
 import Honeybun10w3 from "../../assets/images/litter-images/litter-h/Honeybun/photos/10weeks/Honeybun3.jpeg";
 import Honeybun10w4 from "../../assets/images/litter-images/litter-h/Honeybun/photos/10weeks/Honeybun4.jpeg";
 
+import Honeybun13w1 from "../../assets/images/litter-images/litter-h/Honeybun/photos/13weeks/Honeybun1.jpeg";
+import Honeybun13w2 from "../../assets/images/litter-images/litter-h/Honeybun/photos/13weeks/Honeybun2.jpeg";
+import Honeybun13w3 from "../../assets/images/litter-images/litter-h/Honeybun/photos/13weeks/Honeybun3.jpeg";
+import Honeybun13w4 from "../../assets/images/litter-images/litter-h/Honeybun/photos/13weeks/Honeybun4.jpeg";
+import Honeybun13w5 from "../../assets/images/litter-images/litter-h/Honeybun/photos/13weeks/Honeybun5.jpeg";
+import Honeybun13w6 from "../../assets/images/litter-images/litter-h/Honeybun/photos/13weeks/Honeybun6.jpeg";
+
+
 // hazelnut photos
 import Hazelnut5w1 from "../../assets/images/litter-images/litter-h/Hazelnut/photos/5weeks/Hazelnut1.jpeg";
 import Hazelnut5w2 from "../../assets/images/litter-images/litter-h/Hazelnut/photos/5weeks/Hazelnut2.jpeg";
@@ -19,6 +27,13 @@ import Hazelnut10w1 from "../../assets/images/litter-images/litter-h/Hazelnut/ph
 import Hazelnut10w2 from "../../assets/images/litter-images/litter-h/Hazelnut/photos/10weeks/Hazelnut2.jpeg";
 import Hazelnut10w3 from "../../assets/images/litter-images/litter-h/Hazelnut/photos/10weeks/Hazelnut3.jpeg";
 import Hazelnut10w4 from "../../assets/images/litter-images/litter-h/Hazelnut/photos/10weeks/Hazelnut4.jpeg";
+
+import Hazelnut13w1 from "../../assets/images/litter-images/litter-h/Hazelnut/photos/13weeks/Hazelnut1.jpeg";
+import Hazelnut13w2 from "../../assets/images/litter-images/litter-h/Hazelnut/photos/13weeks/Hazelnut2.jpeg";
+import Hazelnut13w3 from "../../assets/images/litter-images/litter-h/Hazelnut/photos/13weeks/Hazelnut3.jpeg";
+import Hazelnut13w4 from "../../assets/images/litter-images/litter-h/Hazelnut/photos/13weeks/Hazelnut4.jpeg";
+import Hazelnut13w5 from "../../assets/images/litter-images/litter-h/Hazelnut/photos/13weeks/Hazelnut5.jpeg";
+import Hazelnut13w6 from "../../assets/images/litter-images/litter-h/Hazelnut/photos/13weeks/Hazelnut6.jpeg";
 
 // hairball photos
 import Hairball5w1 from "../../assets/images/litter-images/litter-h/Hairball/photos/5weeks/Hairball1.jpeg";
@@ -33,6 +48,11 @@ import Hairball10w4 from "../../assets/images/litter-images/litter-h/Hairball/ph
 import Hairball10w5 from "../../assets/images/litter-images/litter-h/Hairball/photos/10weeks/Hairball5.jpeg";
 import Hairball10w6 from "../../assets/images/litter-images/litter-h/Hairball/photos/10weeks/Hairball6.jpeg";
 
+import Hairball13w1 from "../../assets/images/litter-images/litter-h/Hairball/photos/13weeks/Hairball1.jpeg";
+import Hairball13w2 from "../../assets/images/litter-images/litter-h/Hairball/photos/13weeks/Hairball2.jpeg";
+import Hairball13w3 from "../../assets/images/litter-images/litter-h/Hairball/photos/13weeks/Hairball3.jpeg";
+import Hairball13w4 from "../../assets/images/litter-images/litter-h/Hairball/photos/13weeks/Hairball4.jpeg";
+import Hairball13w5 from "../../assets/images/litter-images/litter-h/Hairball/photos/13weeks/Hairball5.jpeg";
 // hufflepuff photos
 import Hufflepuff5w1 from "../../assets/images/litter-images/litter-h/Hufflepuff/photos/5weeks/Hufflepuff1.jpeg";
 import Hufflepuff5w2 from "../../assets/images/litter-images/litter-h/Hufflepuff/photos/5weeks/Hufflepuff2.jpeg";
@@ -44,6 +64,12 @@ import Hufflepuff10w2 from "../../assets/images/litter-images/litter-h/Hufflepuf
 import Hufflepuff10w3 from "../../assets/images/litter-images/litter-h/Hufflepuff/photos/10weeks/Hufflepuff3.jpeg";
 import Hufflepuff10w4 from "../../assets/images/litter-images/litter-h/Hufflepuff/photos/10weeks/Hufflepuff4.jpeg";
 
+import Hufflepuff13w1 from "../../assets/images/litter-images/litter-h/Hufflepuff/photos/13weeks/Hufflepuff1.jpeg";
+import Hufflepuff13w2 from "../../assets/images/litter-images/litter-h/Hufflepuff/photos/13weeks/Hufflepuff2.jpeg";
+import Hufflepuff13w3 from "../../assets/images/litter-images/litter-h/Hufflepuff/photos/13weeks/Hufflepuff3.jpeg";
+import Hufflepuff13w4 from "../../assets/images/litter-images/litter-h/Hufflepuff/photos/13weeks/Hufflepuff4.jpeg";
+import Hufflepuff13w5 from "../../assets/images/litter-images/litter-h/Hufflepuff/photos/13weeks/Hufflepuff5.jpeg";
+
 export const LitterHListingData = [
   {
     name: "Honeybun",
@@ -54,7 +80,32 @@ export const LitterHListingData = [
     path: "honeybun",
     litterName: "H",
     images: [
-
+      {
+        original: Honeybun13w1,
+        thumbnail: Honeybun13w1,
+        comment: "13weeks",
+      },
+      {
+        original: Honeybun13w2,
+        thumbnail: Honeybun13w2,
+        comment: "13weeks",
+      },{
+        original: Honeybun13w3,
+        thumbnail: Honeybun13w3,
+        comment: "13weeks",
+      },{
+        original: Honeybun13w4,
+        thumbnail: Honeybun13w4,
+        comment: "13weeks",
+      },{
+        original: Honeybun13w5,
+        thumbnail: Honeybun13w5,
+        comment: "13weeks",
+      },{
+        original: Honeybun13w6,
+        thumbnail: Honeybun13w6,
+        comment: "13weeks",
+      },
       {
         original: Honeybun10w1,
         thumbnail: Honeybun10w1,
@@ -107,6 +158,31 @@ export const LitterHListingData = [
     litterName: "G",
     images: [
       {
+        original: Hazelnut13w1,
+        thumbnail: Hazelnut13w1,
+        comment: "13weeks",
+      },{
+        original: Hazelnut13w2,
+        thumbnail: Hazelnut13w2,
+        comment: "13weeks",
+      },{
+        original: Hazelnut13w3,
+        thumbnail: Hazelnut13w3,
+        comment: "13weeks",
+      },{
+        original: Hazelnut13w4,
+        thumbnail: Hazelnut13w4,
+        comment: "13weeks",
+      },{
+        original: Hazelnut13w5,
+        thumbnail: Hazelnut13w5,
+        comment: "13weeks",
+      },{
+        original: Hazelnut13w6,
+        thumbnail: Hazelnut13w6,
+        comment: "13weeks",
+      },
+      {
         original: Hazelnut10w1,
         thumbnail: Hazelnut10w1,
         comment: "10weeks",
@@ -157,6 +233,31 @@ export const LitterHListingData = [
     path: "hairball",
     litterName: "G",
     images: [
+      {
+        original: Hairball13w1,
+        thumbnail: Hairball13w1,
+        comment: "13weeks",
+      },
+      {
+        original: Hairball13w2,
+        thumbnail: Hairball13w2,
+        comment: "13weeks",
+      },
+      {
+        original: Hairball13w3,
+        thumbnail: Hairball13w3,
+        comment: "13weeks",
+      },
+      {
+        original: Hairball13w4,
+        thumbnail: Hairball13w4,
+        comment: "13weeks",
+      },
+      {
+        original: Hairball13w5,
+        thumbnail: Hairball13w5,
+        comment: "13weeks",
+      },
       {
         original: Hairball10w1,
         thumbnail: Hairball10w1,
@@ -218,6 +319,31 @@ export const LitterHListingData = [
     path: "hufflepuff",
     litterName: "G",
     images: [
+      {
+        original: Hufflepuff13w1,
+        thumbnail: Hufflepuff13w1,
+        comment: "13weeks",
+      },
+      {
+        original: Hufflepuff13w2,
+        thumbnail: Hufflepuff13w2,
+        comment: "13weeks",
+      },
+      {
+        original: Hufflepuff13w3,
+        thumbnail: Hufflepuff13w3,
+        comment: "13weeks",
+      },
+      {
+        original: Hufflepuff13w4,
+        thumbnail: Hufflepuff13w4,
+        comment: "13weeks",
+      },
+      {
+        original: Hufflepuff13w5,
+        thumbnail: Hufflepuff13w5,
+        comment: "13weeks",
+      },
       {
         original: Hufflepuff10w1,
         thumbnail: Hufflepuff10w1,
