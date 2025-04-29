@@ -229,7 +229,7 @@ export const LitterHListingData = [
     gender: "Male",
     color: "Red & White",
     birthday: "01/05/2025",
-    availability: "Reserved",
+    availability: "Sold",
     path: "hairball",
     litterName: "G",
     images: [
