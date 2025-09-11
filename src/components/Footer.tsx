@@ -155,7 +155,7 @@ const Footer = () =>{
                     </FooterInfo>
                     <FooterInfo>
                         <h4> Location</h4>
-                        <a href="https://www.google.com/maps/place/+Sterling,+VA,+USA" target="_blank" rel="noreferrer">Sterling Virginia, USA</a>
+                        <a href="https://www.google.com/maps/place/+Ashburn,+VA,+USA" target="_blank" rel="noreferrer">Ashburn Virginia, USA</a>
                     </FooterInfo>
                 </FooterTop>
                 <FooterBottom>
@@ -176,7 +176,7 @@ const Footer = () =>{
                         {/*</Button>*/}
                     </Contact>
                 </FooterBottom>
-                <CopyRight>&copy; 2025 by Fluffy Fluffy. All rights reserved.</CopyRight>
+                <CopyRight>&copy; 2028 by Fluffy Fluffy. All rights reserved.</CopyRight>
             </Container>
         </Section>
     );
