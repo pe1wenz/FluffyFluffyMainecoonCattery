@@ -60,11 +60,11 @@ export const KittensFeatures = {
 
 export const OwningFeatures1 = {
   heading: "Applications",
-  paragraph1: "Apply for Litter H Kittens!",
-  button1Text: "See Litter H Photos",
-  button1Link: "/kittens/litter-h",
+  paragraph1: "Apply for Litter I Kittens!",
+  button1Text: "See Litter I Photos",
+  button1Link: "/kittens/litter-i",
   button2Text: "Apply",
-  button2Link: "https://forms.gle/9tWhfNrA2DYoJ9zu6",
+  button2Link: "https://forms.gle/AKg8rUkkn8HtNK6A9",
   customButtonLink: "",
   customButtonText: "",
   imageSrc: KittensFeaturesImg4,

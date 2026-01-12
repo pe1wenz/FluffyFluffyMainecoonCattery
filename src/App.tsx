@@ -22,6 +22,7 @@ const LitterE = lazy(() => import('./pages/Litters_Page/LitterE'));
 const LitterF = lazy(() => import('./pages/Litters_Page/LitterF'));
 const LitterG = lazy(() => import('./pages/Litters_Page/LitterG'));
 const LitterH = lazy(() => import('./pages/Litters_Page/LitterH'));
+const LitterI = lazy(() => import('./pages/Litters_Page/LitterI'));
 
 
 const UpArrow = styled(IoArrowUp)`
@@ -107,6 +108,9 @@ function App() {
                 </Suspense>} />
                 <Route path="/kittens/litter-h" element={<Suspense fallback={<LoadingIndicator/>}>
                     <LitterH />
+                </Suspense>} />
+                <Route path="/kittens/litter-i" element={<Suspense fallback={<LoadingIndicator/>}>
+                    <LitterI />
                 </Suspense>} />
             </Routes>
             <Footer />
