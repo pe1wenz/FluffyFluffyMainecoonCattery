@@ -4,7 +4,6 @@ import Isabella5w2 from "../../assets/images/litter-images/litter-i/Isabella/pho
 import Isabella5w3 from "../../assets/images/litter-images/litter-i/Isabella/photos/8weeks/Isabella3.jpeg";
 import Isabella5w4 from "../../assets/images/litter-images/litter-i/Isabella/photos/8weeks/Isabella4.jpeg";
 import Isabella5w5 from "../../assets/images/litter-images/litter-i/Isabella/photos/8weeks/Isabella5.jpeg";
-import Isabella5w6 from "../../assets/images/litter-images/litter-i/Isabella/photos/8weeks/Isabella6.jpeg";
 
 
 
@@ -41,11 +40,6 @@ export const LitterIListingData = [
       {
         original: Isabella5w5,
         thumbnail: Isabella5w5,
-        comment: "8weeks",
-      },
-      {
-        original: Isabella5w6,
-        thumbnail: Isabella5w6,
         comment: "8weeks",
       },
     ],
