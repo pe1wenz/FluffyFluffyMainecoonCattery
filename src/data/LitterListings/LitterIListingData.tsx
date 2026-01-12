@@ -10,12 +10,12 @@ import Isabella5w5 from "../../assets/images/litter-images/litter-i/Isabella/pho
 export const LitterIListingData = [
   {
     name: "Isabella",
-    gender: "Male",
-    color: "Red Tabby",
-    birthday: "01/05/2025",
-    availability: "Sold",
+    gender: "Female",
+    color: "Calico",
+    birthday: "10/22/2025",
+    availability: "Available",
     path: "isabella",
-    litterName: "H",
+    litterName: "I",
     images: [
       {
         original: Isabella5w1,
