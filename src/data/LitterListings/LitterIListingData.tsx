@@ -13,7 +13,7 @@ export const LitterIListingData = [
     gender: "Female",
     color: "Calico",
     birthday: "10/22/2025",
-    availability: "Available",
+    availability: "Reserved",
     path: "isabella",
     litterName: "I",
     images: [
